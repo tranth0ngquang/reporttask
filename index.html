@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Report Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Report Generator</h1>
+        <div class="input-group">
+            <label for="topic">Topic:</label>
+            <input type="text" id="topic" placeholder="Enter task topic...">
+        </div>
+        <div class="input-group">
+            <label for="github">GitHub Link:</label>
+            <input type="text" id="github" placeholder="Enter GitHub link...">
+        </div>
+        <div class="input-group">
+            <label for="clickup">ClickUp Link:</label>
+            <input type="text" id="clickup" placeholder="Enter ClickUp link...">
+        </div>
+        <button id="submitBtn">Generate Report</button>
+        <div class="output">
+            <h2>Generated Report:</h2>
+            <p id="outputText"></p>
+            <button id="copyBtn">Copy Report</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
